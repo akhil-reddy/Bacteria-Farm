@@ -41,7 +41,7 @@ Please scan through the `Documents` directory for an academic reading.
 ## Usage
 
 **Step 1.
-Install [scikit-learn](https://github.com/scikit-learn/scikit-learn) with [Numpy](https://github.com/numpy/numpy) backend.**
+Install [scikit-learn](https://github.com/scikit-learn/scikit-learn) and [Numpy](https://github.com/numpy/numpy) **
 ```
 pip3 install -U sklearn
 pip3 install -U numpy
