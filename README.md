@@ -1,4 +1,4 @@
-# Bacteria-Farm
+# Bacteria-Farm [![License](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://github.com/akhil-reddy/Bacteria-Farm/blob/master/LICENSE)
 
 ## Architecture
 
@@ -24,7 +24,7 @@ This model is particularly suited for applications with intent to improve the ac
 
 Please scan through the `Documents` directory for an academic reading.
 
-## Code
+## Model Changes
 
 1. The final version of the model is 'BFFR Sequential and Optimized.py' under the `Code` directory.
 2. It evolved as follows ( all scripts are under the same `Code` directory )
@@ -40,6 +40,20 @@ Please scan through the `Documents` directory for an academic reading.
 
 ## Usage
 
+**Step 1.
+Install [scikit-learn](https://github.com/scikit-learn/scikit-learn) with [Numpy](https://github.com/numpy/numpy) backend.**
+```
+pip3 install -U sklearn
+pip3 install -U numpy
+```
+
+**Step 2. Clone this repository to local.**
+```
+git clone https://github.com/akhil-reddy/Bacteria-Farm
+cd Code
+```
+
+**Step 3. Run the clustering algorithm**  
 ```
 python3 "BFFR Sequential and Optimized.py" <path to the csv file>
 ```
