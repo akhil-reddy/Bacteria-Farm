@@ -34,8 +34,12 @@ Please scan through the `Documents` directory for an academic reading.
   * BFFR Sequential.py
   * BFFR Sequential and Optimized.py
 
+## Supported Data Formats
+
+1. CSV
+
 ## Usage
 
 ```
-python3 "BFFR Sequential and Optimized.py"
+python3 "BFFR Sequential and Optimized.py" <path to the csv file>
 ```
