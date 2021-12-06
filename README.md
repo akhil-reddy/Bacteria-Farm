@@ -49,6 +49,7 @@ pip3 install -U numpy
 **Step 2. Clone this repository to local.**
 ```
 git clone https://github.com/akhil-reddy/Bacteria-Farm
+cd Bacteria-Farm
 cd Code
 ```
 
